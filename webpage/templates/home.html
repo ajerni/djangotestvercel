@@ -1,9 +1,12 @@
 {% extends 'base.html' %} {% block content %}
-
-<h2>
-  Hello from home page - very happy if I can see this on the vercel page
-  online!!!
-</h2>
-<p>And the name passed in was: {{ name }}</p>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">HOME</h1>
+    <p class="lead">
+      Very happy if I can see this on the vercel page online!!!
+    </p>
+  </div>
+  <p>And the name passed in was: {{ name }}</p>
+</div>
 
 {% endblock %}
