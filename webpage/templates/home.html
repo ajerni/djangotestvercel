@@ -1,4 +1,4 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %} {% block content %}{% load static %}
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">HOME</h1>
@@ -11,6 +11,7 @@
   <a href="https://andierni.pythonanywhere.com"
     >Und etwas mit Daten auf andierni.pythonanywhere.com</a
   >
+  <img src="{% static 'images/ball.jpg' %}" alt="ball" />
 </div>
 
 {% endblock %}
